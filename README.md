@@ -17,7 +17,7 @@ This project demonstrates fundamental HTML skills by creating a personal portfol
 
 ## HTML Elements Used
 
-- Semantic tags: `<header>`, `<nav>`, `<main>`, `<section>`, `<article>`, `<footer>`
+- Semantic tags: `<header>`, `<section>`
 - Heading elements (`<h1>` to `<h6>`)
 - Paragraphs (`<p>`)
 - Lists (both `<ul>` and `<ol>`)
