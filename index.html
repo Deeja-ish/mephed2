@@ -1,112 +1,135 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="description" content="This is my first webpage">
-    <title>My first webpage</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description" content="This is my first webpage">
+  <title>My First Webpage</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Khadija Ismail</h1>
-    <p>My name is Khadija Ismail, 
-        and I am a 20-year-old Industrial Chemistry student who discovered a powerful passion for technology. 
-        I am currently on an exciting journey at Mephed Academy, immersing myself in front-end web development. 
-        My goal is not just to learn, but to excel and earn my certification as a capable web developer.
-    </p>
-    <p>I've always been a creative person, 
-        and now I'm focused on merging that creativity with technical skill. 
-        I am deeply motivated to build solutions that are not only functional and beautiful but also serve 
-        to address needs and inspire progress within my community.
-    </p>
+  <!-- Navbar -->
+  <header id="navbar">
+    <nav>
+      <div class="logo">Khadija</div>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#hobbies">Hobbies</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#favorite-website">Favorite Website</a></li>
+        <li><a href="#daily-schedule">Daily Schedule</a></li>
+        <li><a href="#contact">Contact Me</a></li>
+      </ul>
+    </nav>
+  </header>
 
-    <h2>My Hobbies and Interest</h2>
+  <!-- Introduction -->
+  <section id="about" class="card">
+    <h1 class="heading">Khadija Ismail</h1>
+    <p>My name is Khadija Ismail, and I am a 20-year-old Industrial Chemistry student with a passion for technology. 
+       I am currently on an exciting journey at Mephed Academy, immersing myself in front-end web development. 
+       My goal is to excel and earn certification as a web developer.</p>
+    <p>I've always been a creative person, and now I'm merging creativity with technical skills to build solutions 
+       that are functional, beautiful, and impactful within my community.</p>
+  </section>
+
+  <!-- Hobbies and Skills -->
+  <section id="hobbies" class="card">
+    <h2 class="heading">My Hobbies and Interests</h2>
     <ul>
-        <li>Reading</li>
-        <li>Coding</li>
-        <li>Learning</li>
-        <li>Watching Movies</li>
+      <li>Reading</li>
+      <li>Coding</li>
+      <li>Learning</li>
+      <li>Watching Movies</li>
     </ul>
-    <h2>Skills</h2>
+
+    <h2 class="heading">My Skills</h2>
     <ol>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScript</li>
-        <li>Git</li>
-        <li>GitHub</li>
-        <li>UI/UX Design</li>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      <li>Git & GitHub</li>
+      <li>UI/UX Design</li>
     </ol>
-    <section>
-        <h2>My Favorite Website</h2>
-        <a href="https://www.design.com/">Design</a>
-        <p>This is my favorite website because it has a lot of design ideas and inspirations.</p>
+  </section>
 
-        <img src="features-mockup-ai-website-builder.en-us.webp" alt="My favorite website image" width="300" height="200">
-        <p>This is an image from my favorite website.</p>
-    </section>
+  <!-- Favorite Website -->
+  <section id="favorite-website" class="card">
+    <h2 class="heading">My Favorite Website</h2>
+    <a href="https://www.design.com/" target="_blank">Design.com</a>
+    <p>This is my favorite website because it has a lot of design ideas and inspirations.</p>
+    <img src="features-mockup-ai-website-builder.en-us.webp" 
+         alt="My favorite website image" width="300" height="200">
+  </section>
 
-    <section>
-        <table>
-            <caption>My Daily Schedule</caption>
-            <thead>
-                <tr>
-                    <th>Time</th>
-                    <th>Activity</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>6:00 AM - 7:00 AM</td>
-                    <td>Morning Exercise</td>
-                </tr>
-                <tr>
-                    <td>7:00 AM - 8:00 AM</td>
-                    <td>Breakfast and Prepare for the Day</td>
-                </tr>
-                <tr>
-                    <td>8:00 AM - 12:00 PM</td>
-                    <td>Study and Attend Classes</td>
-                </tr>
-                <tr>
-                    <td>12:00 PM - 1:00 PM</td>
-                    <td>Lunch Break</td>
-                </tr>
-                <tr>
-                    <td>1:00 PM - 4:00 PM</td>
-                    <td>Project Work and Coding Practice</td>
-                </tr>
-                <tr>
-                    <td>4:00 PM - 5:00 PM</td>
-                    <td>Relaxation and Hobbies</td>
-                </tr>
-                <tr>
-                    <td>5:00 PM - 6:00 PM</td>
-                    <td>Dinner with Family</td>
-                </tr>
-                <tr>
-                    <td>6:00 PM - 9:00 PM</td>
-                    <td>Online Learning and Skill Development</td>
-                </tr>
-                <tr>
-                    <td>9:00 PM - 10:00 PM</td>
-                    <td>Wind Down and Prepare for Bed</td>
-                </tr>
-            </tbody>
-        </table>
-    </section>
-    <section>
-        <h2>Contact Me</h2>
-        <form action="">
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
-            <br><br>
-            <label for="email">Email:</label>
-            <input type="text" id="email" name="email" required>\
-            <br><br>
-            <textarea for="message">Message:</textarea>
-            <br>
-            <button type="submit">Submit</button>
-        </form>
-    </section>
+  <!-- Daily Schedule -->
+  <section id="daily-schedule" class="card">
+    <h2 class="heading">My Daily Schedule</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Time</th>
+          <th>Activity</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>6:00 - 7:00 AM</td>
+            <td>Morning Exercise</td>
+        </tr>
+        <tr>
+            <td>7:00 - 8:00 AM</td>
+            <td>Breakfast & Prepare</td>
+        </tr>
+        <tr>
+            <td>8:00 - 12:00 PM</td>
+            <td>Study & Classes</td>
+        </tr>
+        <tr>
+            <td>12:00 - 1:00 PM</td>
+            <td>Lunch Break</td>
+        </tr>
+        <tr>
+            <td>1:00 - 4:00 PM</td>
+            <td>Projects & Coding</td>
+        </tr>
+        <tr>
+            <td>4:00 - 5:00 PM</td>
+            <td>Relaxation & Hobbies</td>
+        </tr>
+        <tr>
+            <td>5:00 - 6:00 PM</td>
+            <td>Dinner</td>
+        </tr>
+        <tr>
+            <td>6:00 - 9:00 PM</td>
+            <td>Online Learning</td>
+        </tr>
+        <tr>
+            <td>9:00 - 10:00 PM</td>
+            <td>Wind Down</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <!-- Contact Form -->
+  <section id="contact" class="card">
+    <h2 class="heading">Contact Me</h2>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="4" required></textarea>
+
+      <button type="submit">Submit</button>
+    </form>
+  </section>
 </body>
 </html>

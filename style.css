@@ -1,0 +1,123 @@
+/* General */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background: linear-gradient(112.1deg, #202639 11.4%, #3f4c77 70.2%);
+  line-height: 1.6;
+}
+
+/* Headings */
+.heading {
+  color: radial-gradient(780px at 37.8% 100.3%, rgb(19, 55, 115) 2.2%, rgb(32, 7, 80) 20.2%, rgb(27, 88, 111) 58.6%, rgb(115, 88, 44) 75%, rgb(99, 19, 90) 89.6%, rgb(12, 51, 76) 96.1%);
+  text-align: center;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+}
+
+/* Section Cards */
+.card {
+  background: rgba(255,255,255,0.9);
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 900px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  color: #202639;
+}
+
+/* Navbar */
+#navbar {
+  background: #202639;
+  padding: 10px 0;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.logo {
+  color: white;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.nav-links li a:hover {
+  color: #ffcc70;
+}
+
+/* Lists */
+ul, ol {
+  list-style-type: "❤️ ";
+  padding: 0 10px;
+}
+
+/* Table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+th, td {
+  border: 2px solid #ddd;
+  padding: 10px;
+}
+thead {
+  background: #3f4c77;
+  color: white;
+}
+tbody tr:nth-child(even) {
+  background: #f9f9f9;
+}
+
+/* Form */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-align: left;
+}
+
+input, textarea {
+  width: 80%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+button {
+  background: radial-gradient(780px at 37.8% 100.3%, rgb(19, 55, 115) 2.2%, rgb(32, 7, 80) 20.2%, rgb(27, 88, 111) 58.6%, rgb(115, 88, 44) 75%, rgb(99, 19, 90) 89.6%, rgb(12, 51, 76) 96.1%);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 12px 30px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+button:hover {
+  background: #3f4c77;
+}
+
+
