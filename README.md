@@ -1,42 +1,58 @@
-# GitHub Assignment README Template
+# Personal Portfolio Website 🌐
 
-# Personal Portfolio Website
+A simple **HTML & CSS personal portfolio webpage** created as part of a web development assignment at **Mephed Academy**.
 
-A simple, semantic HTML web page created as part of a web development assignment.
+---
 
-## Project Overview
+## 📖 Project Overview
+This project demonstrates **fundamental front-end development skills** by building a portfolio page with the following:
+- Personal introduction
+- List of hobbies and skills
+- Weekly schedule table
+- Favorite website showcase
+- Contact form for interaction
 
-This project demonstrates fundamental HTML skills by creating a personal portfolio page with various required elements including a personal introduction, hobbies/skills list, weekly schedule table, and contact form.
+---
 
-## Features
+## ✨ Features
+- **Semantic HTML5 structure** for accessibility and SEO  
+- **CSS styling** for layout, colors, and design  
+- **Responsive design basics** for different screen sizes  
+- **Accessible form** with labels, inputs, and textarea  
+- **Organized code** with clear sections  
 
-- **Semantic HTML5 Structure**: Proper use of semantic tags for better accessibility and SEO
-- **Responsive Design**: Basic responsiveness for different screen sizes
-- **Accessibility Features**: Includes alt text for images and proper form labeling
-- **Clean Organization**: Well-structured code with clear sections
+---
 
-## HTML Elements Used
+## 🧩 HTML & CSS Elements Used
+- Semantic tags: `<header>`, `<section>`, `<nav>`, `<table>`  
+- Headings: `<h1>` – `<h6>`  
+- Paragraphs: `<p>`  
+- Lists: `<ul>` and `<ol>`  
+- Image with `alt` text (`<img>`)  
+- External link (`<a>`)  
+- Table with `<thead>`, `<tbody>`, `<tr>`, `<th>`, `<td>`  
+- Contact form (`<form>`, `<input>`, `<textarea>`, `<button>`)  
+- CSS for **backgrounds, colors, typography, layout, hover effects**  
 
-- Semantic tags: `<header>`, `<section>`
-- Heading elements (`<h1>` to `<h6>`)
-- Paragraphs (`<p>`)
-- Lists (both `<ul>` and `<ol>`)
-- Image with alt text (`<img>`)
-- Link to external website (`<a>`)
-- Table for weekly schedule (`<table>`, `<tr>`, `<td>`, `<th>`)
-- Contact form with input fields and textarea (`<form>`, `<input>`, `<textarea>`, `<button>`)
+---
 
-## Assignment Requirements Checklist
+## ✅ Assignment Requirements Checklist
+- [x] Heading with name  
+- [x] Introductory paragraph  
+- [x] List of hobbies and skills  
+- [x] Image with proper alt text  
+- [x] Link to favorite website  
+- [x] Table showing daily schedule  
+- [x] Contact form with inputs, textarea, and submit button  
+- [x] Semantic HTML & CSS styling  
 
-- [x] Heading with name
-- [x] Introductory paragraph
-- [x] List of hobbies/skills
-- [x] Image with proper alt text
-- [x] Link to favorite website
-- [x] Table showing weekly schedule
-- [x] Contact form with inputs, textarea, and submit button
-- [x] Semantic HTML tags throughout
+---
 
-## Technologies Used
+## 🛠️ Technologies Used
+- **HTML5** – Structure  
+- **CSS3** – Styling  
 
-- HTML5
+---
+
+
+
